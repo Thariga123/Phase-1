@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10rem;
+  text-align: center;
+  color: rgb(30, 28, 30);
+}
+h1{
+  font-weight: bolder;
+}
+h2{
+  font-weight:600;
+  font-style: oblique;
+}

@@ -1,0 +1,24 @@
+li{
+  font-size: x-large;
+}
+div{
+  width:350px;
+  height:fit-content;
+  border: 2px solid ;
+  color: azure;
+  place-items: center;
+  border-radius: 50%;
+}
+body {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 0; 
+}
+
+*{
+  background-color: rgb(2, 2, 33);
+}
+
+
