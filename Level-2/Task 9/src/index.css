@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family:cursive;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(195, 104, 104);
+}
+
+.app-wrapper {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
