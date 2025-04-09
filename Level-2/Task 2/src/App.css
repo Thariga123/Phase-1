@@ -1,0 +1,19 @@
+h1{
+    color: rgb(6, 6, 67);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+    background-color: whitesmoke ; 
+    height: fit-content; 
+    width: fit-content; 
+    border-radius: 5px;
+    padding: 10px;
+    border:rgb(5, 82, 101) 10px;
+    border-style: groove;
+}
+body{
+    background-color:rgb(41, 112, 112);
+    text-align: center;
+    place-items: center;
+    margin-top: 20%;
+    
+}
