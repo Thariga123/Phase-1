@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-container {
+  text-align: center;
+  margin-top: 2rem;
+}
