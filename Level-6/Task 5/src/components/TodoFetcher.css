@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #7df16b, #90f181);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo-container {
+    background-color: #ffffffee;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .status {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .status.loading {
+    color: #5555dd;
+  }
+  
+  .status.error {
+    color: #dd4444;
+  }
+  
+  .todo-card {
+    margin-top: 20px;
+    text-align: left;
+    background: #aafd9d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .todo-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
