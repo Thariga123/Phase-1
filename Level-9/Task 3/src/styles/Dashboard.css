@@ -1,0 +1,53 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .sidebar nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar nav a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+  }
+  
+  .sidebar nav a:hover {
+    background-color: #33334d;
+    color: white;
+  }
+  
+  .sidebar nav a.active {
+    background-color: #4e4eb3;
+    color: white;
+  }
+  
+  .dashboard-content {
+    padding: 40px;
+    font-size: 25px;
+  }
+  
+  .dashboard-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  

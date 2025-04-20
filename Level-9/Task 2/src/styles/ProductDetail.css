@@ -1,0 +1,28 @@
+.product-detail {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .product-detail h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .product-detail p {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0;
+  }
+  
+  .product-detail strong {
+    color: #000;
+  }
+  
