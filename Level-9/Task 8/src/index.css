@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.virtual-list-container {
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.item {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  transition: background-color 0.2s;
+}
+
+.item:hover {
+  background-color: #f4f4f4;
+}
+
+.item h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.item p {
+  margin-top: 8px;
+  color: #777;
+}

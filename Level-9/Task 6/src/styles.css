@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+    color: #333;
+  }
+  
+  .app {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    transition: all 0.3s ease;
+  }
+  
+ 
+  .app h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #222;
+  }
+  
+ 
+  .controls {
+    margin-bottom: 2rem;
+  }
+  
+  .controls label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+  }
+  
+  input[type="number"] {
+    padding: 0.6rem 1rem;
+    width: 100%;
+    max-width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    transition: border 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    border-color: #1976d2;
+    outline: none;
+  }
+
+  .counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  
+  .counter p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .btn {
+    padding: 0.6rem 1.4rem;
+    background: linear-gradient(to right, #1976d2, #42a5f5);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition:  0.3s ease;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(to right, #1565c0, #1e88e5);
+    box-shadow: 0 4px 12px rgba(21, 101, 192, 0.3);
+  }
+  
