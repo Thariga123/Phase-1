@@ -1,0 +1,181 @@
+/* === Reset and Base Styles === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffdf7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === Layout Wrapper === */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* === Sidebar === */
+.sidebar {
+  width: 220px;
+  background-color: #650840;
+  padding: 1rem;
+  border-right: 2px solid #ddd;
+  color: white;
+}
+
+.sidebar h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background-color: #8b8a88;
+  color: white;
+}
+
+/* === Nav Images if used === */
+.nav-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 0.5rem;
+}
+
+/* === Main Content === */
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* === Tabs === */
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+  justify-content: center;
+}
+
+.tab-item {
+  padding: 0.5rem 1rem;
+  background-color: #650840;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.tab-item:hover,
+.tab-item.active {
+  background-color: #c14991;
+  color: white;
+}
+
+/* === Search Form === */
+form {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+form input {
+  width: 60%;
+  max-width: 500px;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* === Grid Layout for Cards (Home & Search Results) === */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* === Recipe Cards === */
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* === Reusable Image Styles === */
+img {
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* === Recipe Detail === */
+.recipe-detail {
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.recipe-detail img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.recipe-detail h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.recipe-detail ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.recipe-detail p,
+.recipe-detail li {
+  margin-bottom: 0.5rem;
+}
+
+/* === Search Result Specific Image Styling === */
+.search-result img,
+.grid img {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.search-result img:hover {
+  transform: scale(1.03);
+}
