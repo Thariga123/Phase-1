@@ -1,0 +1,8 @@
+
+      Summary of CSV Data Analysis:
+      -----------------------------
+      Total Rows Processed: 5
+      Average Value: 89.60
+      Max Value: 326
+      Min Value: 6
+    
