@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6809dd8589416920aab71240"
+  },
+  "name": "Ravi",
+  "type": "A",
+  "value": 10
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71241"
+  },
+  "name": "Chitra",
+  "type": "B",
+  "value": 15
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71242"
+  },
+  "name": "Suthan",
+  "type": "A",
+  "value": 20
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71243"
+  },
+  "name": "Thariga",
+  "type": "C",
+  "value": 25
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71244"
+  },
+  "name": "Sathish",
+  "type": "B",
+  "value": 30
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71245"
+  },
+  "name": "Dhanusri",
+  "type": "C",
+  "value": 35
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71246"
+  },
+  "name": "Shrinithi",
+  "type": "A",
+  "value": 40
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71247"
+  },
+  "name": "Ananya",
+  "type": "B",
+  "value": 45
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71248"
+  },
+  "name": "Adith",
+  "type": "C",
+  "value": 50
+},
+{
+  "_id": {
+    "$oid": "6809dd8589416920aab71249"
+  },
+  "name": "Parkavi",
+  "type": "A",
+  "value": 55
+}]
