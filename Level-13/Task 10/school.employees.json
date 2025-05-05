@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "68185fdb7a73dea591b71236"
+  },
+  "employee_id": "E-1001",
+  "name": "Alice Smith",
+  "department": "Engineering",
+  "hire_date": {
+    "$date": "2022-04-01T00:00:00.000Z"
+  }
+}]

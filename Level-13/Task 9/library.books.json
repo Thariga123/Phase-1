@@ -1,0 +1,237 @@
+[{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b71244"
+  },
+  "title": "The Art of Code",
+  "published_date": {
+    "$date": "2020-05-20T00:00:00.000Z"
+  },
+  "ISBN": "978-1234567890",
+  "page_count": 320,
+  "genres": [
+    "Programming",
+    "Technology"
+  ],
+  "publisher": {
+    "name": "TechPress",
+    "location": "New York"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b71245"
+  },
+  "title": "Modern Architecture",
+  "published_date": {
+    "$date": "2018-08-11T00:00:00.000Z"
+  },
+  "ISBN": "978-2345678901",
+  "page_count": 450,
+  "genres": [
+    "Computing",
+    "Design"
+  ],
+  "publisher": {
+    "name": "CodeWorld",
+    "location": "London"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000002"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b71246"
+  },
+  "title": "AI in the Future",
+  "published_date": {
+    "$date": "2021-03-14T00:00:00.000Z"
+  },
+  "ISBN": "978-3456789012",
+  "page_count": 280,
+  "genres": [
+    "AI",
+    "Science Fiction"
+  ],
+  "publisher": {
+    "name": "SciBooks",
+    "location": "Madrid"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000003"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b71247"
+  },
+  "title": "Cyber Defense 101",
+  "published_date": {
+    "$date": "2019-07-22T00:00:00.000Z"
+  },
+  "ISBN": "978-4567890123",
+  "page_count": 350,
+  "genres": [
+    "Cybersecurity",
+    "Technology"
+  ],
+  "publisher": {
+    "name": "SecurePub",
+    "location": "Delhi"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000004"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b71248"
+  },
+  "title": "Quantum Realities",
+  "published_date": {
+    "$date": "2022-11-18T00:00:00.000Z"
+  },
+  "ISBN": "978-5678901234",
+  "page_count": 390,
+  "genres": [
+    "Quantum Computing"
+  ],
+  "publisher": {
+    "name": "QuantumReads",
+    "location": "Moscow"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000005"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b71249"
+  },
+  "title": "JavaScript Mastery",
+  "published_date": {
+    "$date": "2019-01-15T00:00:00.000Z"
+  },
+  "ISBN": "978-1111222233",
+  "page_count": 420,
+  "genres": [
+    "Programming",
+    "Web Development"
+  ],
+  "publisher": {
+    "name": "TechPress",
+    "location": "New York"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000001"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b7124a"
+  },
+  "title": "Microchips & You",
+  "published_date": {
+    "$date": "2020-06-10T00:00:00.000Z"
+  },
+  "ISBN": "978-4444555566",
+  "page_count": 310,
+  "genres": [
+    "Hardware",
+    "Technology"
+  ],
+  "publisher": {
+    "name": "CodeWorld",
+    "location": "London"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000002"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b7124b"
+  },
+  "title": "Robo Dreams",
+  "published_date": {
+    "$date": "2021-10-01T00:00:00.000Z"
+  },
+  "ISBN": "978-6666777788",
+  "page_count": 295,
+  "genres": [
+    "AI",
+    "Science Fiction"
+  ],
+  "publisher": {
+    "name": "SciBooks",
+    "location": "Madrid"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000003"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b7124c"
+  },
+  "title": "The Hacker’s Mind",
+  "published_date": {
+    "$date": "2020-04-12T00:00:00.000Z"
+  },
+  "ISBN": "978-9999000011",
+  "page_count": 400,
+  "genres": [
+    "Cybersecurity"
+  ],
+  "publisher": {
+    "name": "SecurePub",
+    "location": "Delhi"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000004"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "680a09ebe0713f7454b7124d"
+  },
+  "title": "Entanglement Explained",
+  "published_date": {
+    "$date": "2023-02-20T00:00:00.000Z"
+  },
+  "ISBN": "978-1010101010",
+  "page_count": 360,
+  "genres": [
+    "Quantum Computing"
+  ],
+  "publisher": {
+    "name": "QuantumReads",
+    "location": "Moscow"
+  },
+  "authors": [
+    {
+      "$oid": "100000000000000000000005"
+    }
+  ]
+}]
