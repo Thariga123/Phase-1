@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb7124a"
+  },
+  "product": "Laptop",
+  "category": "Electronics",
+  "quantity": 2,
+  "price": 60000,
+  "discount": 5000,
+  "date": {
+    "$date": "2025-04-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb7124b"
+  },
+  "product": "Smartphone",
+  "category": "Electronics",
+  "quantity": 5,
+  "price": 20000,
+  "discount": 3000,
+  "date": {
+    "$date": "2025-04-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb7124c"
+  },
+  "product": "Refrigerator",
+  "category": "Appliances",
+  "quantity": 1,
+  "price": 45000,
+  "discount": 2000,
+  "date": {
+    "$date": "2025-03-25T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb7124d"
+  },
+  "product": "Washing Machine",
+  "category": "Appliances",
+  "quantity": 1,
+  "price": 30000,
+  "discount": 1500,
+  "date": {
+    "$date": "2025-04-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb7124e"
+  },
+  "product": "Desk Chair",
+  "category": "Furniture",
+  "quantity": 3,
+  "price": 3500,
+  "discount": 500,
+  "date": {
+    "$date": "2025-04-08T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb7124f"
+  },
+  "product": "Dining Table",
+  "category": "Furniture",
+  "quantity": 1,
+  "price": 20000,
+  "discount": 1000,
+  "date": {
+    "$date": "2025-03-15T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb71250"
+  },
+  "product": "Microwave",
+  "category": "Appliances",
+  "quantity": 2,
+  "price": 8000,
+  "discount": 1000,
+  "date": {
+    "$date": "2025-02-28T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb71251"
+  },
+  "product": "Tablet",
+  "category": "Electronics",
+  "quantity": 4,
+  "price": 15000,
+  "discount": 2000,
+  "date": {
+    "$date": "2025-04-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb71252"
+  },
+  "product": "Bookshelf",
+  "category": "Furniture",
+  "quantity": 2,
+  "price": 7000,
+  "discount": 600,
+  "date": {
+    "$date": "2025-04-03T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "680b390f8b8f49afdcb71253"
+  },
+  "product": "Blender",
+  "category": "Appliances",
+  "quantity": 3,
+  "price": 3000,
+  "discount": 300,
+  "date": {
+    "$date": "2025-03-10T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b71236"
+  },
+  "order_id": 101,
+  "customer": {
+    "first_name": "Alice",
+    "last_name": "Wong"
+  },
+  "items": [
+    {
+      "name": "Laptop",
+      "price": 60000,
+      "quantity": 1
+    },
+    {
+      "name": "Mouse",
+      "price": 1200,
+      "quantity": 2
+    }
+  ],
+  "status": "delivered",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b71237"
+  },
+  "order_id": 102,
+  "customer": {
+    "first_name": "Bob",
+    "last_name": "Smith"
+  },
+  "items": [
+    {
+      "name": "Tablet",
+      "price": 25000,
+      "quantity": 1
+    },
+    {
+      "name": "Keyboard",
+      "price": 3000,
+      "quantity": 1
+    }
+  ],
+  "status": "processing",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b71238"
+  },
+  "order_id": 103,
+  "customer": {
+    "first_name": "Charlie",
+    "last_name": "Lee"
+  },
+  "items": [
+    {
+      "name": "Monitor",
+      "price": 15000,
+      "quantity": 2
+    }
+  ],
+  "status": "shipped",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b71239"
+  },
+  "order_id": 104,
+  "customer": {
+    "first_name": "Dana",
+    "last_name": "Taylor"
+  },
+  "items": [
+    {
+      "name": "Smartphone",
+      "price": 30000,
+      "quantity": 1
+    },
+    {
+      "name": "Earbuds",
+      "price": 2000,
+      "quantity": 2
+    }
+  ],
+  "status": "delivered",
+  "priority": 3
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b7123a"
+  },
+  "order_id": 105,
+  "customer": {
+    "first_name": "Ethan",
+    "last_name": "Kim"
+  },
+  "items": [
+    {
+      "name": "Printer",
+      "price": 10000,
+      "quantity": 1
+    }
+  ],
+  "status": "cancelled",
+  "priority": 3
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b7123b"
+  },
+  "order_id": 106,
+  "customer": {
+    "first_name": "Fiona",
+    "last_name": "Lopez"
+  },
+  "items": [
+    {
+      "name": "Laptop",
+      "price": 55000,
+      "quantity": 1
+    },
+    {
+      "name": "Cooling Pad",
+      "price": 1500,
+      "quantity": 1
+    }
+  ],
+  "status": "processing",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b7123c"
+  },
+  "order_id": 107,
+  "customer": {
+    "first_name": "George",
+    "last_name": "Patel"
+  },
+  "items": [
+    {
+      "name": "Smartwatch",
+      "price": 12000,
+      "quantity": 2
+    }
+  ],
+  "status": "shipped",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b7123d"
+  },
+  "order_id": 108,
+  "customer": {
+    "first_name": "Hannah",
+    "last_name": "Nguyen"
+  },
+  "items": [
+    {
+      "name": "Camera",
+      "price": 40000,
+      "quantity": 1
+    },
+    {
+      "name": "Tripod",
+      "price": 2500,
+      "quantity": 1
+    }
+  ],
+  "status": "delivered",
+  "priority": 1
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b7123e"
+  },
+  "order_id": 109,
+  "customer": {
+    "first_name": "Ian",
+    "last_name": "Cheng"
+  },
+  "items": [
+    {
+      "name": "Router",
+      "price": 3500,
+      "quantity": 1
+    },
+    {
+      "name": "Ethernet Cable",
+      "price": 500,
+      "quantity": 3
+    }
+  ],
+  "status": "shipped",
+  "priority": 2
+},
+{
+  "_id": {
+    "$oid": "680b4d015d4b702a42b7123f"
+  },
+  "order_id": 110,
+  "customer": {
+    "first_name": "Julia",
+    "last_name": "Garcia"
+  },
+  "items": [
+    {
+      "name": "Gaming Chair",
+      "price": 18000,
+      "quantity": 1
+    }
+  ],
+  "status": "processing",
+  "priority": 3
+}]

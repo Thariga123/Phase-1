@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "100000000000000000000001"
+  },
+  "name": "Jane Doe",
+  "birth_date": {
+    "$date": "1980-03-15T00:00:00.000Z"
+  },
+  "nationality": "American",
+  "biography": "Jane is a tech writer with a focus on coding and education.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "100000000000000000000002"
+  },
+  "name": "John Smith",
+  "birth_date": {
+    "$date": "1975-06-10T00:00:00.000Z"
+  },
+  "nationality": "British",
+  "biography": "John writes about computer architecture.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "100000000000000000000003"
+  },
+  "name": "Maria Lopez",
+  "birth_date": {
+    "$date": "1988-09-23T00:00:00.000Z"
+  },
+  "nationality": "Spanish",
+  "biography": "Maria writes science fiction and AI literature.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "100000000000000000000004"
+  },
+  "name": "Amit Sharma",
+  "birth_date": {
+    "$date": "1990-11-12T00:00:00.000Z"
+  },
+  "nationality": "Indian",
+  "biography": "Amit is a cyber security expert and writer.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "100000000000000000000005"
+  },
+  "name": "Elena Petrova",
+  "birth_date": {
+    "$date": "1982-07-08T00:00:00.000Z"
+  },
+  "nationality": "Russian",
+  "biography": "Elena specializes in quantum computing books.",
+  "books": []
+}]

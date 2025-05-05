@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6809b523d2bbbb9e3db7123b"
+  },
+  "name": "Thariga",
+  "age": 15,
+  "grade": "10th",
+  "subjects": [
+    "Math",
+    "Science",
+    "English"
+  ],
+  "address": {
+    "street": "123 Balaji Kongu nagar",
+    "city": "Namakkal",
+    "state": "Tamilnadu"
+  }
+},
+{
+  "_id": {
+    "$oid": "6809b621d2bbbb9e3db7123c"
+  },
+  "name": "Teju",
+  "age": 17,
+  "grade": "11th",
+  "subjects": [
+    "History",
+    "Biology",
+    "Math"
+  ],
+  "address": {
+    "street": "456 Oak Ave",
+    "city": "Hosur",
+    "state": "Karnataka"
+  }
+},
+{
+  "_id": {
+    "$oid": "6809b621d2bbbb9e3db7123d"
+  },
+  "name": "Dhanu",
+  "age": 13,
+  "grade": "8th",
+  "subjects": [
+    "English",
+    "Malayalam",
+    "Science"
+  ],
+  "address": {
+    "street": "789 Pine Rd",
+    "city": "Trivandram",
+    "state": "Kerala"
+  }
+},
+{
+  "_id": {
+    "$oid": "6809b621d2bbbb9e3db7123e"
+  },
+  "name": "Suthan",
+  "age": 17,
+  "grade": "12th",
+  "subjects": [
+    "Physics",
+    "Chemistry",
+    "Math"
+  ],
+  "address": {
+    "street": "321 gandhi nagar",
+    "city": "Gandhipuram",
+    "state": "Gujarat"
+  }
+},
+{
+  "_id": {
+    "$oid": "6809b621d2bbbb9e3db7123f"
+  },
+  "name": "Idalya",
+  "age": 14,
+  "grade": "9th",
+  "subjects": [
+    "Geography",
+    "Math",
+    "Science"
+  ],
+  "address": {
+    "street": "654 KPM street",
+    "city": "Vishakapatnam",
+    "state": "Andhra Pradesh"
+  }
+}]

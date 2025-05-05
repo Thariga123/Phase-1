@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "680a003ce86341487ab71236"
+  },
+  "name": "Laptop",
+  "price": 1200,
+  "category": "Electronics",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71237"
+  },
+  "name": "Phone",
+  "price": 800,
+  "category": "Electronics",
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71238"
+  },
+  "name": "Tablet",
+  "price": 500,
+  "category": "Electronics",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71239"
+  },
+  "name": "Monitor",
+  "price": 300,
+  "category": "Electronics",
+  "stock": 40
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab7123a"
+  },
+  "name": "Keyboard",
+  "price": 50,
+  "category": "Accessories",
+  "stock": 100
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab7123b"
+  },
+  "name": "Mouse",
+  "price": 30,
+  "category": "Accessories",
+  "stock": 150
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab7123c"
+  },
+  "name": "Chair",
+  "price": 150,
+  "category": "Furniture",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab7123d"
+  },
+  "name": "Desk",
+  "price": 200,
+  "category": "Furniture",
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab7123e"
+  },
+  "name": "Speaker",
+  "price": 120,
+  "category": "Audio",
+  "stock": 60
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab7123f"
+  },
+  "name": "Headphones",
+  "price": 250,
+  "category": "Audio",
+  "stock": 35
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71240"
+  },
+  "name": "Smartwatch",
+  "price": 400,
+  "category": "Wearables",
+  "stock": 45
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71241"
+  },
+  "name": "Camera",
+  "price": 1000,
+  "category": "Photography",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71242"
+  },
+  "name": "Tripod",
+  "price": 70,
+  "category": "Photography",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71243"
+  },
+  "name": "Flash Drive",
+  "price": 20,
+  "category": "Storage",
+  "stock": 200
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71244"
+  },
+  "name": "Hard Drive",
+  "price": 150,
+  "category": "Storage",
+  "stock": 80
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71245"
+  },
+  "name": "Router",
+  "price": 90,
+  "category": "Networking",
+  "stock": 45
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71246"
+  },
+  "name": "Modem",
+  "price": 110,
+  "category": "Networking",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71247"
+  },
+  "name": "Power Bank",
+  "price": 60,
+  "category": "Accessories",
+  "stock": 70
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71248"
+  },
+  "name": "Projector",
+  "price": 750,
+  "category": "Electronics",
+  "stock": 8
+},
+{
+  "_id": {
+    "$oid": "680a003ce86341487ab71249"
+  },
+  "name": "Printer",
+  "price": 180,
+  "category": "Electronics",
+  "stock": 22
+}]
