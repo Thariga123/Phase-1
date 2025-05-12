@@ -1,0 +1,14 @@
+{
+  "name": "task-manager-cli",
+  "version": "1.0.0",
+  "description": "Command-line application to manage tasks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "yargs": "^17.7.2"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1714328900001,
+    "title": "Finish React project",
+    "description": "Complete all components and deploy to Netlify.",
+    "status": "pending",
+    "dueDate": "2025-05-05"
+  },
+  {
+    "id": 1714328900002,
+    "title": "Prepare for team meeting",
+    "description": "Create a presentation and send invites to the team.",
+    "status": "completed",
+    "dueDate": "2025-04-30"
+  },
+  {
+    "id": 1714328900003,
+    "title": "Doctor Appointment",
+    "description": "Visit Dr. Smith for annual checkup at 5 PM.",
+    "status": "pending",
+    "dueDate": "2025-05-03"
+  },
+  {
+    "id": 1714328900004,
+    "title": "Buy groceries",
+    "description": "Milk, Bread, Eggs, Vegetables, Fruits.",
+    "status": "completed",
+    "dueDate": "2025-04-28"
+  },
+  {
+    "id": 1745815864959,
+    "title": "Learn Node.js",
+    "description": "Learn the basic operations",
+    "status": "completed",
+    "dueDate": "2025-05-20"
+  }
+]
