@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "inquirer": "^12.6.0",
+    "node-cron": "^3.0.3"
+  },
+  "type": "module"
+}

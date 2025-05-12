@@ -1,0 +1,3 @@
+[2025-05-04T16:38:34.459Z] ❌ Error during backup: ENOTDIR: not a directory, scandir 'D:\Phase-1\Level-15\Data Backup Tool\backup.js'
+[2025-05-04T16:46:29.182Z] ✅ Backup created at D:\Backups\backup-2025-05-04T16-46-29-162Z
+[2025-05-04T16:46:29.200Z] 📦 Compressed to D:\Backups\backup-2025-05-04T16-46-29-162Z.zip

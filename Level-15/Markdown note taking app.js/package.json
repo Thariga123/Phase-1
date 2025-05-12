@@ -1,0 +1,17 @@
+{
+  "name": "markdown-note-taking-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "inquirer": "^12.6.0",
+    "marked": "^15.0.11"
+  },
+  "type": "module"
+}
