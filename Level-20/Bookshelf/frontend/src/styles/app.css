@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f5f5f5, #e0f7e9);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background:#f44336;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a, .navbar button {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar a:hover, .navbar button:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+    padding: 0.5rem 1rem;
+    background:#f44336;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.search-button:hover {
+    background: #e97d76;
+}
+
+.book-card {
+    background: white;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.book-card img {
+    width: 100px;
+    height: auto;
+}
+
+.book-card select, .book-card input, .book-card textarea {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.book-card button {
+    background: #f44336;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.search-results {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-card button:hover {
+    background: #d32f2f;
+}
+
+.filter-section {
+    margin: 1rem 0;
+}
