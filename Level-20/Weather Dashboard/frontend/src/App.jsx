@@ -10,26 +10,29 @@ function App() {
   const [favorites, setFavorites] = useState([]);
   const [unit, setUnit] = useState('C');
 
+  const API = import.meta.env.VITE_API_BASE_URL;
+
+
   const fetchWeather = async () => {
-    const res = await axios.get(`http://localhost:5000/api/weather/${city}`);
+    const res = await axios.get(`${API}/api/weather/${city}`);
     setWeather(res.data);
   };
 
   const fetchForecast = async () => {
-    const res = await axios.get(`http://localhost:5000/api/forecast/${city}`);
+    const res = await axios.get(`${API}/api/forecast/${city}`);
     const daily = res.data.list.filter((item, idx) => idx % 8 === 0);
     setForecast(daily);
   };
 
   const fetchFavorites = async () => {
-    const res = await axios.get('http://localhost:5000/api/favorites');
-    setFavorites(res.data);
-  };
+  const res = await axios.get(`${API}/api/favorites`);
+  setFavorites(res.data);
+};
 
   const saveFavorite = async () => {
-    await axios.post('http://localhost:5000/api/favorites', { city });
-    fetchFavorites();
-  };
+  await axios.post(`${API}/api/favorites`, { city });
+  fetchFavorites();
+};
 
   const handleSearch = () => {
     fetchWeather();
